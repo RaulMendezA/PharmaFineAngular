@@ -1,0 +1,4 @@
+[
+    {"nombre":"Juan", "pass":"123", "estado": "JALISCO", "hobbies":["correr"]},
+    {"nombre":"Pepe", "pass":"1234", "estado": "AGUASCALIENTES", "hobbies":["nadar", "videojuegos"]}
+]

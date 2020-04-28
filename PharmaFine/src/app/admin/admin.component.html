@@ -1,0 +1,16 @@
+<p>admin Chat</p>
+<hr>
+<div>
+    <p class="my-0" *ngFor="let mensaje of listaMensajes"> {{mensaje}} </p>
+</div>
+<hr>
+
+<div class="form-group">
+  <label for="">Escribir mensaje:</label>
+  <input type="text"
+    class="form-control" id="inputMsg" [(ngModel)]="msg" (keydown)="onKeydown($event)" aria-describedby="helpId" placeholder=""> <!-- bind a msg -->
+</div>
+
+<a name="" id="" class="btn btn-primary" (click)="enviarMensaje()" role="button">Enviar</a> <!-- activa funct, manda msg -->
+
+<hr>
