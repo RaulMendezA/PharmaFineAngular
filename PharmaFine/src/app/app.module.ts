@@ -7,7 +7,6 @@ import { SocketIoModule, SocketIoConfig} from 'ngx-socket-io';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ChatComponent } from './chat/chat.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
@@ -21,7 +20,6 @@ const config: SocketIoConfig = { url: environment.url , options: {}};
 @NgModule({
   declarations: [
     AppComponent,
-    ChatComponent,
     HomeComponent,
     HeaderComponent,
     FooterComponent,
