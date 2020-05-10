@@ -14,6 +14,8 @@ import { environment } from 'src/environments/environment';
 import { AdminComponent } from './admin/admin.component';
 import { UserChatComponent } from './user-chat/user-chat.component';
 import { AdminChatComponent } from './admin-chat/admin-chat.component';
+import { UserComponent } from './user/user.component';
+import { CartComponent } from './cart/cart.component';
 
 const config: SocketIoConfig = { url: environment.url , options: {}};
 
@@ -25,7 +27,9 @@ const config: SocketIoConfig = { url: environment.url , options: {}};
     FooterComponent,
     AdminComponent,
     UserChatComponent,
-    AdminChatComponent
+    AdminChatComponent,
+    UserComponent,
+    CartComponent
   ],
   imports: [
     ModalModule.forRoot(),
